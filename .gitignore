@@ -1,0 +1,26 @@
+# Hackathon data and outputs — never commit
+data/
+out/
+*.parquet
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Environment secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+contest-repo/
+.tvc_token
